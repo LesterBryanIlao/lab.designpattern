@@ -1,18 +1,20 @@
-package designpattern4;
+package designpattern4.player;
+
+import designpattern4.interfaces.AdvancedMediaPlayer;
 
 public class Mp4Player implements AdvancedMediaPlayer{
 
 	@Override
 	public void playVlc() {
 		// TODO Auto-generated method stub
-		System.out.println("VLC file played using Mp4Player.");
+		System.out.println("File is played using Mp4Player.");
 		
 	}
 
 	@Override
 	public void playMp4() {
 		// TODO Auto-generated method stub
-		System.out.println("MP4 file played using Mp4Player.");
+		System.out.println("File is played using Mp4Player.");
 	}
 	
 }
